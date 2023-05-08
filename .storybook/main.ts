@@ -9,7 +9,7 @@ const config: StorybookConfig = {
   ],
   framework: {
     name: '@storybook/nextjs',
-    options: {},
+    options: { strictMode: true, fastRefresh: true },
   },
   core: {
     builder: '@storybook/builder-webpack5',
