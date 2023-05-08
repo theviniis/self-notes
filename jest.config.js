@@ -1,9 +1,8 @@
 module.exports = {
-  clearMocks: true,
-  collectCoverage: true,
-  coverageDirectory: 'coverage',
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
-  collectCoverageFrom: ['src/**/*.text.ts(x)'],
+  collectCoverage: true,
+  collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/stories.tsx'],
   setupFilesAfterEnv: ['<rootDir>/.jest/config.ts'],
+  modulePaths: ['<rootDir>/src/'],
 };
