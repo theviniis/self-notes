@@ -4,5 +4,16 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.organizeImports": true
+  },
+  "files.exclude": {
+    "node_modules": true,
+    ".vscode": true,
+    ".gitignore": true,
+    ".github": true,
+    ".next": true,
+    "storybook-static": true,
+    ".npmrc": true,
+    ".nvmrc": true
+    // "public": true
   }
 }
