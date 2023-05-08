@@ -44,6 +44,8 @@ module.exports = {
         'translation',
         'security',
         'changeset',
+        'stories',
+        'storybook',
       ],
     ],
   },
