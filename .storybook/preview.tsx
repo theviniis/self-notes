@@ -1,6 +1,7 @@
 import type { Preview } from '@storybook/react';
 import * as NextImage from 'next/image';
 import React from 'react';
+import '../src/app/globals.css';
 
 const OriginalNextImage = NextImage.default;
 
