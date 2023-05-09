@@ -1,1 +1,2 @@
-export * from './';
+export * from './fonts';
+export * from './utils';

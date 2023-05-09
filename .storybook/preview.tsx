@@ -2,6 +2,7 @@ import type { Preview } from '@storybook/react';
 import * as NextImage from 'next/image';
 import React from 'react';
 import '../src/app/globals.css';
+import { cn, sans, serif } from '../src/lib';
 
 const OriginalNextImage = NextImage.default;
 
@@ -20,6 +21,13 @@ const preview: Preview = {
       },
     },
   },
+  decorators: [
+    (Story) => (
+      <div className={cn(sans.variable, serif.variable, 'font-sans')}>
+        <Story />
+      </div>
+    ),
+  ],
 };
 
 export default preview;

@@ -1,7 +1,5 @@
-import { Ubuntu } from 'next/font/google';
+import { cn, sans, serif } from '@/lib';
 import './globals.css';
-
-const ubuntu = Ubuntu({ weight: '400', subsets: ['latin'] });
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={ubuntu.className}>{children}</body>
+      <body className={cn(sans.variable, serif.variable, 'font-sans')}>
+        {children}
+      </body>
     </html>
   );
 }
