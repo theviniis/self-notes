@@ -1,19 +1,18 @@
 # :star: What's new?
 
 (JIRA CARD)[url]
+
 ## Type of change
+
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] Documentation updates
 
-
 ## How Has This Been Tested?
 
 - [ ] Describe test scenario 1
 - [ ] Describe test scenario 2
-
-
 
 ## Checklist:
 
@@ -25,6 +24,6 @@
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
 
-Before                     |  After
-:-------------------------:|:-------------------------------:
-** original screenshot **  |  ** after changes screenshot **
+|          Before           |             After              |
+| :-----------------------: | :----------------------------: |
+| ** original screenshot ** | ** after changes screenshot ** |
